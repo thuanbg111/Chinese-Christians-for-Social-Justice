@@ -1,0 +1,46 @@
+<!doctype html><html lang="en"><head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Home — CHINESE CHRISTIANS FOR SOCIAL JUSTICE</title><link rel="stylesheet" href="assets/styles.css"/><link rel="icon" href="images/logo.png">
+  <meta name="description" content="CHINESE CHRISTIANS FOR SOCIAL JUSTICE — California 501(c)(3). EIN 85-2489966. We educate and promote Social Justice among the Chinese community as mandated by the Holy Scripture.">
+</head><body><header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Home"><img src="images/logo.png" alt="CHINESE CHRISTIANS FOR SOCIAL JUSTICE logo"></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="links" aria-label="Main">
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="governance.html">Governance</a>
+      <a href="contact.html" class="btn btn-primary">Contact</a>
+    </nav>
+  </div>
+</header>
+<main><section class="hero"><div class="container inner">
+  <span class="badge">Nonprofit Public Benefit • 501(c)(3) • EIN 85-2489966</span>
+  <h1><span class="upper-strong">CHINESE CHRISTIANS FOR SOCIAL JUSTICE</span></h1>
+  <p>We are a California 501(c)(3) nonprofit public benefit corporation. Our mission is to <strong>educate and promote Social Justice among the Chinese community as mandated by the Holy Scripture</strong>.</p>
+  <p><a class="btn btn-primary" href="about.html">Learn more</a> <a class="btn" href="programs.html">See programs</a></p>
+</div></section>
+<section class="section container split">
+  <div><h2>What We Do</h2><p>Faith‑informed education and community action for justice.</p>
+    <ul><li>Scripture‑based teaching on justice and mercy</li><li>Community dialogues &amp; service projects</li><li>Partnerships with churches and nonprofits</li></ul></div>
+  <figure class="figure"><img src="images/hero.jpg" alt="Community learning and action"></figure>
+</section>
+<section class="section container grid-3">
+  <article class="card"><img src="images/education.jpg" alt="Scripture & Justice Academy"><div class="card-body"><h3>Scripture &amp; Justice Academy</h3><p>Workshops and small‑group studies exploring Social Justice in the Bible and practical discipleship.</p></div></article>
+  <article class="card"><img src="images/relief.jpg" alt="Community Outreach"><div class="card-body"><h3>Community Outreach</h3><p>Service days, food/hygiene drives, and referrals to aid providers — serving neighbors with dignity.</p></div></article>
+  <article class="card"><img src="images/community.jpg" alt="Partnerships"><div class="card-body"><h3>Partnerships</h3><p>Collaborations with churches, campus groups, and nonprofits to multiply impact in Chinese communities.</p></div></article>
+</section></main><footer class="footer">
+  <div class="container grid">
+    <div><img src="images/logo.png" alt="" style="width:160px;height:auto;margin-bottom:.5rem;">
+      <div class="small">© <span id="year"></span> CHINESE CHRISTIANS FOR SOCIAL JUSTICE</div>
+      <div class="small">California Nonprofit Public Benefit • 501(c)(3) • EIN 85-2489966</div></div>
+    <div><div class="small"><strong>Mission:</strong><br>We educate and promote Social Justice among the Chinese community as mandated by the Holy Scripture.</div></div>
+    <div><div class="small"><strong>Address:</strong><br>3133 N Broadway<br>Los Angeles, CA 90031<br>
+      <strong>Email:</strong> <a href="mailto:contact@christiansforsocialjustice.online">contact@christiansforsocialjustice.online</a><br><strong>Phone:</strong> <a href="tel:+18303292543">+1 830-329-2543</a></div></div>
+  </div>
+</footer>
+<script>
+  const b=document.querySelector('.menu-toggle'), l=document.querySelector('.links');
+  if(b&&l){b.addEventListener('click',()=>{const o=getComputedStyle(l).display==='flex';l.style.display=o?'none':'flex';b.setAttribute('aria-expanded',o?'false':'true');});}
+  const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();
+</script></body></html>
